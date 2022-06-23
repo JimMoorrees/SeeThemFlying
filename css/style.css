@@ -1,0 +1,75 @@
+.main-area
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.3)), url(../img/background.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    margin: 0 auto;
+}
+body
+{
+    margin: 0;
+    overflow: hidden;
+}
+.spoddermon
+{
+    background-image: url(../img/staticRight.png);
+    position: absolute;
+    top: 39%;
+    left: 46%;
+    height: 8%;
+    width: 5%;
+    z-index: 1;
+    background-size: contain;
+    transition-duration: 0.1s;
+}
+.webRight
+{
+    background-color: white;
+    height: 2px;
+    width: 5000px;
+    position: absolute;
+    top: 71%;
+    left: 85%;
+    display: none;
+}
+.webLeft
+{
+    background-color: white;
+    height: 2px;
+    width: 5000px;
+    position: absolute;
+    top: 71%;
+    right: 85%;
+    display: none;
+}
+
+.webUp
+{
+    background-color: white;
+    height: 5000px;
+    width: 2px;
+    position: absolute;
+    bottom: 88%;
+    left: 57%;
+    display: none;
+}
+.webDown
+{
+    background-color: white;
+    height: 5000px;
+    width: 2px;
+    position: absolute;
+    top: 71%;
+    right: 85%;
+    display: none;
+
+}
+.spoddermonShootRight
+{
+    background-image: url(../img/webshootRighty.png);
+}
+.spoddermonShootLeft
+{
+    background-image: url(../img/webshootLefty.png);
+}
