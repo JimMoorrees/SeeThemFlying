@@ -1,4 +1,4 @@
-# Passion-Project (Vue.js Showcase Portfolio)
+# See Them flying spiderman game
 **Project Description:**
 This is a fun little project for school, i created a browser spiderman game, you can move around with W, A, S, D. the game doenst really have a goal besides trying out new javascript functions.
 
